@@ -203,4 +203,10 @@ padding: 1rem 8rem;
         justify-content: space-between;
       grid-template-columns: 0;
     }
+    .menu {
+        visibility: hidden;
+    }
+    #side-nav{
+        visibility: hidden;
+    }
 }
