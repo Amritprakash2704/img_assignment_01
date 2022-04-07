@@ -201,6 +201,6 @@ padding: 1rem 8rem;
         grid-template-rows: 1fr 1fr 1fr;
         padding: 3rem 7rem;
         justify-content: space-between;
-        width: 100vw;
+      grid-template-columns: 0;
     }
 }
