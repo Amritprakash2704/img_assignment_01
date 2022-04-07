@@ -103,6 +103,15 @@ width: 100vw;
    justify-content: space-evenly;
    
 }
+.pic-b{
+    background: linear-gradient(to bottom, #E5E5E5 50%, #5183B8 50%); 
+   
+  width: 100vw;
+  
+   margin-top: 4rem ;
+ 
+   
+}
 /* .contents{
     display: flex;
     flex-direction: column;
@@ -147,7 +156,7 @@ padding: 1rem 8rem;
 .posts{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.pic-details hr{
+.hr_element{
     border: 2px solid #FFD53D;
     background-color: #FFD53D;
     width: 10rem;
@@ -170,4 +179,22 @@ padding: 1rem 8rem;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
    
+}
+.problem{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: space-evenly;
+    width: 100vw;
+   
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        display: grid;
+        width: 100vw;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 3rem 7rem;
+        justify-content: space-between;
+        width: 100vw;
+    }
 }
