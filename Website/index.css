@@ -3,7 +3,7 @@
 }
 body{
     background: #E5E5E5;
-    width: 100vw;
+    /* overflow-x: hidden; */
     
 }
 .header{
@@ -12,6 +12,7 @@ body{
     padding :40px 40px;
     display: flexbox;
     justify-content: space-between;
+
     /* width: 100vw; */
 }
 #logo{
@@ -171,16 +172,20 @@ padding: 1rem 8rem;
 .footer{
     display: grid;
     width: 100vw;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem 7rem;
+    grid-template-columns: 33% 33% 33%;
+   padding: 2rem 0;
     justify-content: space-between;
-    width: 100vw;
+ 
 }
 .sub-footer{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-   
+    align-content: center;
+ 
+   width: 100%;
+   padding: 0 3rem;
+ 
 }
 .problem{
     display: grid;
@@ -192,8 +197,11 @@ padding: 1rem 8rem;
 }
 .header1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+   padding: 0 5rem;
+   justify-content: space-between;
+   align-items: center;
+    
+    align-content: center;
 }
 .major{
     display: flex;justify-content: space-evenly;width: 100vw;
@@ -225,10 +233,24 @@ padding: 1rem 8rem;
 .side-nav_1{
     display: inline;
 }
-.sub-footer_3{
-    font-weight: bold;padding: 0rem 4rem;
+#sub-footer_3{
+    font-weight: bold;padding: 0rem auto;
+    align-content:  center;
+    justify-content: center;
+    font-weight: 500;
 }
+#sub-footer_2{
+    display:flex;flex-flow: row nowrap;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;justify-content: space-between;
+    
+}
+#sub-footer_3 div {
+      display: inline;
+}
+
 @media only screen and (max-width: 1200px){
+    .body{
+        overflow-x: hidden;
+    }
     .menu {
         display: none;
      }
@@ -240,6 +262,10 @@ padding: 1rem 8rem;
      }
 }
 @media only screen and (max-width: 600px){
+    .body{
+        overflow-x: hidden;
+        width: 100vw;
+    }
     .footer{
         display: grid;
         width: 100vw;
