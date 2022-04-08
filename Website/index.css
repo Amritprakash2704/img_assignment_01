@@ -4,7 +4,13 @@
 body{
     background: #E5E5E5;
     /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+ 
     
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .header{
     /* background-color: red; */
