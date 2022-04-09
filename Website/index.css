@@ -253,10 +253,10 @@ padding: 1rem 8rem;
       display: inline;
 }
 .hamburger{
-    display: none;
+  display: none;
 }
 .hamburger-pic{
-    width: 1rem;
+    width: 3rem;
     padding: 0 1rem;
 }
 .sub-footer_1{
@@ -284,10 +284,16 @@ padding: 1rem 8rem;
      }
      .hamburger{
          display: inline;
+         float: left;
+       
      }
      .header1{
          justify-content: center;
      }
+     .header1{
+         align-content:center;
+     }
+     
 }
 @media only screen and (max-width: 800px){
     .body{
