@@ -296,10 +296,7 @@ padding: 1rem 8rem;
      
 }
 @media only screen and (max-width: 800px){
-    .body{
-        overflow-x: hidden;
-        width: 100%;
-    }
+ 
     .footer{
         display: grid;
      
@@ -362,5 +359,9 @@ padding: 1rem 8rem;
    /* width: 50vw;
     */
    
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
 }
 }
