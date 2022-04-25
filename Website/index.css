@@ -34,15 +34,37 @@ body{
     padding: 1rem 1rem
     
 }
+.lang{
+    font-family: 'Hind', sans-serif;
+}
+.lang > span {
+    padding: 0 0.06rem;
+}
+.home{
+    padding-right: 0.4rem;
+    font-weight: bold;
+}
+.home_sub_1{
+    padding-left: 0.4rem;
+}
 .menu>ul{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    
-    
+    list-style-type: none;
 }
-
-   
+.top_menu >ul{
+    display: flex;justify-content: space-between;font-weight: bold;padding-right: 2rem;list-style-type: none;
+}
+.top_menu > li{
+    display: inline; padding: 0 1rem;font-weight:400;
+}
+.top_menu > a{
+ text-decoration: none;
+}
+.top_menu {
+    list-style-type: none;font-size: 0.8rem;width: 30=rem;font-family:'Lato',sans-serif;font-weight: 300;
+}
 
 li>a{
     text-decoration: none;
@@ -158,6 +180,10 @@ width: 100%;
     filter: grayscale(3);
     
 }
+
+.sub-footer_2-content_heading{
+    font-weight: 500;
+}
 .pics:hover{
     filter: grayscale(0);
 }
@@ -208,6 +234,9 @@ padding: 1rem 8rem;
  
 }
 .social-logo_footer{
+    display: flex;justify-content: space-between;margin-top: 2rem;width: 15rem;
+}
+.social-logo_footer >img{
     width: 2rem;
     border-radius: 50%;
     background-color: grey;
@@ -266,6 +295,14 @@ padding: 0 4rem;
 .side-nav_1{
     display: inline;
 }
+.dropdown{
+    width:25px;
+    padding-left: 1rem;
+
+}
+.people-pic{
+    width: 20rem;
+}
 #sub-footer_3{
     font-weight: bold;padding: 0rem auto;
     align-content:  center;
@@ -279,12 +316,78 @@ padding: 0 4rem;
     padding: 0 0;
     
 }
+.mode{
+    display:flex ;list-style-type: none;flex-flow: row nowrap;justify-content: space-evenly;width: 8rem;font-family:lato;
+}
+.light_mode{
+    display: inline;padding: 5px 10px;border: 1px solid 
+        #1A76BB;border-radius: 4px;
+}
+.dark_mode{
+    display: inline;padding: 5px 10px;color: aliceblue;background-color: #1A76BB;border-radius: 4px;border: 1px solid #1A76BB;
+}
+.side-nav-sections-def{
+    display:flex;flex-direction: column;flex-wrap: nowrap;
+}
+.margin >span{
+    padding-top: 0.3rem;
+    margin: 0 1rem;
+    padding-left: 0.025rem;
+}
+.email{
+   display: flex;
+}
+.email > img{
+    width: 30px;
+}
+.email >span {
+    padding-top: 0.4rem;margin: 0 1rem;
+}
+.preview{
+    background-color: grey;width: 272px; height: 184px;padding: 0 2rem;
+}
+.upper{
+    display: inline;font-size: 1.1rem;
+}
+.lower{
+    display: inline;font-size: 0.8rem;
+}
+.normal{
+    display: inline;font-size: 0.95rem;
+}
+.search{
+    padding-left: 1rem;
+}
+.salutation > img {
+    display: inline; padding: 2px 8px;
+}
+.salutation{
+    padding: 1rem 0rem;display: flex;
+}
+.photo_credits{
+    padding: 1rem 0rem;
+}
+.side-nav_1_upper{
+    display:flex;flex-direction: row;align-content: center;justify-content: space-between;align-items: center;
+}
+.margin{
+    margin: 2rem 0;
+    display: flex;
+}
+.font_size{
+    display:flex ;list-style-type: none;flex-flow: row nowrap;justify-content: space-between;width: 7rem;align-items: flex-end;font-family:lato;
+}
+.phone_img{
+    width: 30px;
+}
 #sub-footer_1{
     padding: 0 0;
     padding-left: 5rem;
+    font-weight: bold;
 }
-#sub-footer_3 div {
+#sub-footer_3 >div {
       display: inline;
+      font-weight: bold;
 }
 .hamburger{
   display: none;
@@ -314,6 +417,9 @@ padding: 0 4rem;
 }
 .Downloads{
     padding: 1rem 0rem;font-weight: bold;display: flex;
+}
+.Downloads >span{
+      padding: 0.0125rem;
 }
 
 
